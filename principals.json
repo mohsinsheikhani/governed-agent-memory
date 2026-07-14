@@ -1,0 +1,22 @@
+{
+  "_comment": "FAKE tokens for the isolation simulation. These are NOT real credentials. A token present in this file stands in for a verified JWT signature; that is the only thing it proves. Safe to commit.",
+
+  "tok_dana_acme": {
+    "seller_id": "dana",
+    "name": "Dana Whitfield",
+    "tenant_id": "acme_sales",
+    "deals": ["Northwind Logistics", "Cobalt Software", "Meridian Components"]
+  },
+  "tok_raj_acme": {
+    "seller_id": "raj",
+    "name": "Raj Patel",
+    "tenant_id": "acme_sales",
+    "deals": ["Lumen Skincare", "Orchard Financial"]
+  },
+  "tok_tom_bright": {
+    "seller_id": "tom",
+    "name": "Tom Alvarez",
+    "tenant_id": "brightpath",
+    "deals": ["Cedar Foods Distribution", "Halcyon Payments"]
+  }
+}
